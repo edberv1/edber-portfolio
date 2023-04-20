@@ -12,8 +12,8 @@ export const projectData = [
     transitionImage: two,
     title:
       "Heilmassage-FW is a personal website that I made for a client that provides massage services.",
-    codeLink: "",
-    liveLink: "",
+    codeLink: "https://github.com/edberv1/Heilmassage-FW",
+    liveLink: "https://heilmassage-fw.vercel.app/",
     techStack: ["HTML", "CSS", "JavaScript", "ReactJs"],
   },
   {
