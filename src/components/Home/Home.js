@@ -15,7 +15,7 @@ const Home = () => {
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
         <Name>Edber Vuçitërna</Name>
-        <Title>Front End Developer</Title>
+        <Title>Web Developer</Title>
         <div id="contactdiv">
           <a
             href="https://github.com/edberv1"
