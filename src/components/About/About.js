@@ -23,19 +23,15 @@ const About = () => {
       <AboutContent>
         <AboutImage src={myImage} />
         <AboutDetailsContainer>
+         
           <StyledParagraph>
-            I started learning Web Developement back in 2018, when I was a high school freshman. Presently I am student in the bachelor degree of "Computer Science and Engineering" at: <br></br> <a href="https://www.ubt-uni.net/" target="_blank" rel="noopener noreferrer" className="linku">UBT - Higher Education Institution</a> 
+          As a Full Stack Developer with a focus on front-end development, I possess a comprehensive understanding of the entire development cycle for dynamic web projects. My skill set encompasses a wide range of programming languages and frameworks, including HTML5, CSS, TailwindCSS, JavaScript, NodeJS, MySQL, ReactJS, Java, PHP, Laravel.
           </StyledParagraph>
-          <StyledParagraph>
-          Junior Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages and frameworks including HTML5, CSS, JavaScript, NodeJS, Microsoft SQL Server, ReactJS.
-          </StyledParagraph>
-          <StyledParagraph>
-            In my free time, I explore the world around me, play football and video games.  
-          </StyledParagraph>
+      
           <Resume>
             <ResumeLink
               download="cv.pdf"
-              href="https://drive.google.com/u/0/uc?id=1hXqdSEqeaNsaWfrjgcD6xW-ectDdCXLl&export=download"
+              href="https://drive.google.com/file/d/1OHJyCSJCPCfHYuUi3JLqD__4jcAdbNGr/view?usp=sharing"
               icon={downloadIcon}
       
             >

@@ -21,9 +21,9 @@ export const projectData = [
     image: three,
     transitionImage: four,
     title:
-      "FitStar is a website that you can use to find exercises that you need by filtering which muscle do you target.",
-    codeLink: "https://github.com/edberv1/Fitness",
+      "BuySell website is an online platform where individuals and businesses can buy, sell or trade vehicles. The website aims to create a user-friendly experience for customers who want to purchase a vehicle or sell their existing one.",
+    codeLink: "https://github.com/edberv1/BuySell",
     liveLink: "",
-    techStack: ["HTML", "CSS", "JavaScript", "ReactJs"],
+    techStack: ["Laravel", "TailwindCSS", "AlpineJS"],
   },
 ];

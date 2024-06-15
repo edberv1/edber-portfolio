@@ -15,7 +15,7 @@ const Home = () => {
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
         <Name>Edber Vuçitërna</Name>
-        <Title>Web Developer</Title>
+        <Title>Full Stack Developer</Title>
         <div id="contactdiv">
           <a
             href="https://github.com/edberv1"
@@ -31,7 +31,7 @@ const Home = () => {
           >
             <SiLinkedin />
           </a>
-          <a href="mailto:edberv1@gmail.com">
+          <a href="mailto:vuciternaedber@gmail.com">
             <IoMdMail />
           </a>
         </div>

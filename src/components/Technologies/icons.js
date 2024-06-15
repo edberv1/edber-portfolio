@@ -8,6 +8,9 @@ import NodeJs from "../../assets/technologies/nodejs.png"
 import Ai from "../../assets/technologies/ai.png"
 import java from "../../assets/technologies/java.png"
 import mysql from "../../assets/technologies/mysql.png"
+import php from "../../assets/technologies/php.png"
+import laravel from "../../assets/technologies/laravel.png"
+import xd from "../../assets/technologies/xd.png"
 
 
 export const iconsData = [
@@ -55,20 +58,38 @@ export const iconsData = [
   },
   {
     id: 8,
+    icon: php,
+    name: "PHP",
+    href: "https://www.php.net/",
+  },
+  {
+    id: 9,
+    icon: laravel,
+    name: "Laravel",
+    href: "https://laravel.com/",
+  },
+  {
+    id: 10,
     icon: github,
     name: "GitHub",
     href: "https://github.com/",
   },
+  {
+    id: 11,
+    icon: xd,
+    name: "AdobeXD",
+    href: "https://helpx.adobe.com/support/xd.html",
+  },
 
   {
-    id: 9,
+    id: 12,
     icon: Figma,
     name: "Figma",
     href: "https://www.figma.com/",
   },
 
   {
-    id: 10,
+    id: 13,
     icon: Ai,
     name: "Adobe Illustrator",
     href: "https://www.adobe.com/products/illustrator.html",

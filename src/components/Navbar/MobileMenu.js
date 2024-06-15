@@ -1,6 +1,11 @@
 import React from "react";
 import { IoMdMail } from "react-icons/io";
 import {
+  SiLinkedin,
+  SiGithub,
+} from "react-icons/si";
+
+import {
   CloseIcon,
   Icon,
   MobileMenuContainer,
@@ -31,7 +36,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
           About
         </MobileMenuLink>
         <MobileButton
-          href="mailto:edberv1@gmail.com "
+          href="mailto:vuciternaedber@gmail.com"
           target="_blank"
         >
           <span>
@@ -42,23 +47,23 @@ const MobileMenu = ({ isOpen, toggle }) => {
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:edberv1@gmail.com"
+          href="mailto:vuciternaedber@gmail.com"
           target="_blank"
         >
-          Mail
+          <IoMdMail />
         </MobileSocial>
         <MobileSocial
           href="https://github.com/edberv1"
           target="_blank"
         >
-          GitHub
+          <SiGithub />
         </MobileSocial>
 
         <MobileSocial
           href="https://www.linkedin.com/in/edber-vu%C3%A7it%C3%ABrna-aa205b22b/"
           target="_blank" 
         >
-          LinkedIn
+          <SiLinkedin />
         </MobileSocial>
       </MobileSocials>
       <MobileQuote></MobileQuote>

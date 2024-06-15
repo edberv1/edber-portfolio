@@ -70,8 +70,8 @@ const Footer = () => {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Mail</ContactHeader>
-          <ContactLink href="mailto:edberv1@gmail.com">
-          edberv1@gmail.com
+          <ContactLink href="mailto:vuciternaedber@gmail.com">
+          vuciternaedber@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>
