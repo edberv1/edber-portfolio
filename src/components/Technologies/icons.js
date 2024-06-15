@@ -11,6 +11,7 @@ import mysql from "../../assets/technologies/mysql.png"
 import php from "../../assets/technologies/php.png"
 import laravel from "../../assets/technologies/laravel.png"
 import xd from "../../assets/technologies/xd.png"
+import mongodb from "../../assets/technologies/mongodb.png"
 
 
 export const iconsData = [
@@ -44,58 +45,65 @@ export const iconsData = [
     name: "Microsoft SQL Server",
     href: "https://www.microsoft.com/",
   },
+
   {
-    id: 5,
+    id: 6,
+    icon: mongodb,
+    name: "MongoDB",
+    href: "https://www.adobe.com/products/illustrator.html",
+  },
+  {
+    id: 7,
     icon: NodeJs,
     name: "NodeJs",
     href: "https://nodejs.org/en/",
   },
   {
-    id: 7,
+    id: 8,
     icon: java,
     name: "Java",
     href: "https://www.java.com/en/",
   },
   {
-    id: 8,
+    id: 9,
     icon: php,
     name: "PHP",
     href: "https://www.php.net/",
   },
   {
-    id: 9,
+    id: 10,
     icon: laravel,
     name: "Laravel",
     href: "https://laravel.com/",
   },
   {
-    id: 10,
+    id: 11,
     icon: github,
     name: "GitHub",
     href: "https://github.com/",
   },
   {
-    id: 11,
+    id: 12,
     icon: xd,
     name: "AdobeXD",
     href: "https://helpx.adobe.com/support/xd.html",
   },
 
   {
-    id: 12,
+    id: 14,
     icon: Figma,
     name: "Figma",
     href: "https://www.figma.com/",
   },
 
   {
-    id: 13,
+    id: 15,
     icon: Ai,
     name: "Adobe Illustrator",
     href: "https://www.adobe.com/products/illustrator.html",
   },
 
-
+  
 
 
 ];

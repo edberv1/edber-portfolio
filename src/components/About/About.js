@@ -25,7 +25,7 @@ const About = () => {
         <AboutDetailsContainer>
          
           <StyledParagraph>
-          As a Full Stack Developer with a focus on front-end development, I possess a comprehensive understanding of the entire development cycle for dynamic web projects. My skill set encompasses a wide range of programming languages and frameworks, including HTML5, CSS, TailwindCSS, JavaScript, NodeJS, MySQL, ReactJS, Java, PHP, Laravel.
+          As a Full Stack Developer, I excel in crafting seamless web interfaces and robust backend solutions. My strong skills come from deep knowledge in JavaScript, React.js and TailwindCSS for front-end development, paired with Node.js, MySQL, and MongoDB for server-side and database management. I am also proficient in Java and PHP, leaning for the Laravel framework, enabling me to deliver full-spectrum web applications that are both dynamic and user-friendly.
           </StyledParagraph>
       
           <Resume>
