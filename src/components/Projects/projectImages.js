@@ -6,6 +6,8 @@ import five from "../../assets/projects/5.png";
 import six from "../../assets/projects/6.png";
 import seven from "../../assets/projects/7.png";
 import eight from "../../assets/projects/8.png";
+import nine from "../../assets/projects/9.png";
+import ten from "../../assets/projects/10.png";
 
 export {
   one,
@@ -15,5 +17,7 @@ export {
   five,
   six,
   seven,
-  eight
+  eight,
+  nine,
+  ten
 };
