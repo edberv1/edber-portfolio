@@ -6,7 +6,9 @@ import {
   five, 
   six,
   seven,
-  eight
+  eight,
+  nine,
+  ten
 } from "./projectImages";
 
 export const projectData = [
@@ -47,4 +49,15 @@ export const projectData = [
     codeLink: "https://github.com/edberv1/Pharmacy",
     techStack: ["MongoDB", "Express", "React.js", "Node.js", "MySQL"],
   },
+  {
+    id: 5,
+    image: nine,
+    transitionImage: ten,
+    title:
+    "Metalair Nacelles SA is your trusted partner for the localization of lifting platforms. With a fleet of more than 100 machines, we have a wide range of platforms adapted to all your needs, whether it is for work at height or specific projects. In addition to localization, we offer transport services for your machines and equipment, ensuring you complete, reliable and secure solutions, from the beginning to the end of your construction sites.",
+    codeLink: "https://github.com/edberv1/metalair-necelles",
+    liveLink: "https://metalair-nacelles.ch/",
+    techStack: ["HTML", "Bootstrap", "EmailJS", "jQuery"],
+  },
+  
 ];
