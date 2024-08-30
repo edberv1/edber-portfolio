@@ -8,7 +8,9 @@ import {
   seven,
   eight,
   nine,
-  ten
+  ten,
+  eleven,
+  twelve
 } from "./projectImages";
 
 export const projectData = [
@@ -17,7 +19,7 @@ export const projectData = [
     image: one,
     transitionImage: two,
     title:
-      "Heilmassage-FW is a personal website that I made for a client that provides massage services.",
+      "Heilmassage-FW is a personal website that I made for a client that provides massage services. Located in Vienna Austria",
     codeLink: "https://github.com/edberv1/Heilmassage-FW",
     liveLink: "https://heilmassage-fw.vercel.app/",
     techStack: ["ReactJs", "TailwindCSS"],
@@ -54,10 +56,19 @@ export const projectData = [
     image: nine,
     transitionImage: ten,
     title:
-    "Metalair Nacelles SA is your trusted partner for the localization of lifting platforms. With a fleet of more than 100 machines, we have a wide range of platforms adapted to all your needs, whether it is for work at height or specific projects. In addition to localization, we offer transport services for your machines and equipment, ensuring you complete, reliable and secure solutions, from the beginning to the end of your construction sites.",
+    "Metalair Nacelles SA is your trusted partner for the localization of lifting platforms, based in Switzerland. With a fleet of more than 100 machines, it has a wide range of platforms adapted to all your needs, whether it is for work at height or specific projects. In addition to localization, it offers transport services for your machines and equipment, ensuring you complete, reliable and secure solutions, from the beginning to the end of your construction sites.",
     codeLink: "https://github.com/edberv1/metalair-necelles",
     liveLink: "https://metalair-nacelles.ch/",
     techStack: ["HTML", "Bootstrap", "EmailJS", "jQuery"],
   },
-  
+  {
+    id: 6,
+    image: eleven,
+    transitionImage: twelve,
+    title:
+    "SKS Security provides an extensive range of new and proven security services, based in Austria. It also establish individual security services just for your personal needs. Their protection services are designed to be flexible and every member of the team is trained to the highest standards.",
+    codeLink: "https://github.com/edberv1",
+    liveLink: "https://www.sks-security.at/",
+    techStack: ["HTML", "Bootstrap", "Joomla"],
+  },
 ];
