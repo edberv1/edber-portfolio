@@ -95,15 +95,4 @@ export const iconsData = [
     name: "Figma",
     href: "https://www.figma.com/",
   },
-
-  {
-    id: 15,
-    icon: Ai,
-    name: "Adobe Illustrator",
-    href: "https://www.adobe.com/products/illustrator.html",
-  },
-
-  
-
-
 ];

@@ -17,7 +17,6 @@ import { animateScroll as scroll } from "react-scroll";
 import {
   SiLinkedin,
   SiGithub,
-  SiTwitter,
 } from "react-icons/si";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
 
@@ -60,18 +59,13 @@ const Footer = () => {
             >
               <SiLinkedin />
             </ContactLink>
-            <ContactLink
-              href="https://twitter.com/edberv1"
-              target="_blank"
-            >
-              <SiTwitter />
-            </ContactLink>
+           
           </FooterSocials>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Mail</ContactHeader>
-          <ContactLink href="mailto:vuciternaedber@gmail.com">
-          vuciternaedber@gmail.com
+          <ContactLink href="mailto:edbervuciterna@proton.me">
+          edbervuciterna@proton.me
           </ContactLink>
         </FooterContact>
       </FooterContacts>

@@ -25,7 +25,7 @@ const About = () => {
         <AboutDetailsContainer>
          
           <StyledParagraph>
-          As a Full Stack Developer, I excel in crafting seamless web interfaces and robust backend solutions. My strong skills come from deep knowledge in JavaScript, React.js and TailwindCSS for front-end development, paired with Node.js, MySQL, and MongoDB for server-side and database management. I am also proficient in Java and PHP, leaning for the Laravel framework, enabling me to deliver full-spectrum web applications that are both dynamic and user-friendly.
+          Full Stack Developer skilled in crafting user-friendly web experiences with React.js. I bring a strong foundation in back-end technologies like Laravel, Node.js and SQL to the table, ensuring smooth data integration and application functionality. Experienced in all stages of the development cycle, and dedicated to delivering clean, efficient code while collaborating effectively with teams.
           </StyledParagraph>
       
           <Resume>
