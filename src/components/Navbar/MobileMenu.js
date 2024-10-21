@@ -36,7 +36,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
           About
         </MobileMenuLink>
         <MobileButton
-          href="mailto:vuciternaedber@gmail.com"
+          href="mailto:edbervuciterna@proton.me"
           target="_blank"
         >
           <span>
@@ -47,7 +47,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:vuciternaedber@gmail.com"
+          href="mailto:edbervuciterna@proton.me"
           target="_blank"
         >
           <IoMdMail />
