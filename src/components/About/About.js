@@ -25,7 +25,7 @@ const About = () => {
         <AboutDetailsContainer>
          
           <StyledParagraph>
-          Full Stack Developer skilled in crafting user-friendly web experiences with React.js. I bring a strong foundation in back-end technologies like Laravel, Node.js and SQL to the table, ensuring smooth data integration and application functionality. Experienced in all stages of the development cycle, and dedicated to delivering clean, efficient code while collaborating effectively with teams.
+          Software Developer skilled in crafting user-friendly web experiences with React.js. I bring a strong foundation in back-end technologies like Laravel, Node.js and SQL to the table, ensuring smooth data integration and application functionality. Experienced in all stages of the development cycle, and dedicated to delivering clean, efficient code while collaborating effectively with teams.
           </StyledParagraph>
       
           <Resume>
