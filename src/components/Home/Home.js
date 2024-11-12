@@ -9,6 +9,7 @@ import {
   SiLinkedin,
   SiGithub,
 } from "react-icons/si";
+import { Analytics } from '@vercel/analytics/react';
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
           </a>
         </div>
       </StyledHome>
+      <Analytics />
     </IconContext.Provider>
   );
 };
