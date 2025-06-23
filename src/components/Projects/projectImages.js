@@ -10,6 +10,8 @@ import nine from "../../assets/projects/9.png";
 import ten from "../../assets/projects/10.png";
 import eleven from "../../assets/projects/11.png";
 import twelve from "../../assets/projects/12.png";
+import thirteen from "../../assets/projects/13.png";
+import fourteen from "../../assets/projects/14.png";
 
 export {
   one,
@@ -23,5 +25,7 @@ export {
   nine,
   ten,
   eleven,
-  twelve
+  twelve,
+  thirteen,
+  fourteen
 };

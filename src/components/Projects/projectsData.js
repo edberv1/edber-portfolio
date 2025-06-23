@@ -10,31 +10,15 @@ import {
   nine,
   ten,
   eleven,
-  twelve
+  twelve,
+  thirteen,
+  fourteen,
 } from "./projectImages";
 
 export const projectData = [
+
   {
     id: 1,
-    image: one,
-    transitionImage: two,
-    title:
-      "Heilmassage-FW is a personal website that I made for a client that provides massage services. Located in Vienna Austria",
-    codeLink: "https://github.com/edberv1/Heilmassage-FW",
-    liveLink: "https://heilmassage-fw.vercel.app/",
-    techStack: ["ReactJs", "TailwindCSS"],
-  },
-  {
-    id: 2,
-    image: three,
-    transitionImage: four,
-    title:
-      "BuySell website is an online platform where individuals and businesses can buy, sell or trade vehicles. The website aims to create a user-friendly experience for customers who want to purchase a vehicle or sell their existing one.",
-    codeLink: "https://github.com/edberv1/BuySell",
-    techStack: ["Laravel", "TailwindCSS", "AlpineJS"],
-  },
-  {
-    id: 3,
     image: five,
     transitionImage: six,
     title:
@@ -43,7 +27,7 @@ export const projectData = [
     techStack: ["MongoDB", "Express", "React.js", "Node.js"],
   },
   {
-    id: 4,
+    id: 2,
     image: eight,
     transitionImage: seven,
     title:
@@ -52,7 +36,16 @@ export const projectData = [
     techStack: ["MongoDB", "Express", "React.js", "Node.js", "MySQL"],
   },
   {
-    id: 5,
+    id: 3,
+    image: three,
+    transitionImage: four,
+    title:
+      "BuySell website is an online platform where individuals and businesses can buy, sell or trade vehicles. The website aims to create a user-friendly experience for customers who want to purchase a vehicle or sell their existing one.",
+    codeLink: "https://github.com/edberv1/BuySell",
+    techStack: ["Laravel", "TailwindCSS", "AlpineJS"],
+  },
+  {
+    id: 4,
     image: nine,
     transitionImage: ten,
     title:
@@ -61,6 +54,18 @@ export const projectData = [
     liveLink: "https://metalair-nacelles.ch/",
     techStack: ["HTML", "Bootstrap", "EmailJS", "jQuery"],
   },
+
+{
+    id: 5,
+    image: fourteen,
+    transitionImage: thirteen,
+    title:
+    "Dina-T Glass is a company specializing in the processing and trade of safety glass, offering high-quality solutions for residential, commercial, and industrial applications. The website was built to showcase their wide range of products and services, improve customer engagement, and establish a strong online presence. It features a modern, responsive design with a focus on clarity and functionality, allowing visitors to explore glass types, request quotes, and easily get in touch for custom solutions.",
+    codeLink: "https://github.com/edberv1/Dina-T-Glass",
+    liveLink: "https://www.dinatglass.com/",
+    techStack: ["HTML", "SCSS", "JavaScript","Bootstrap", "EmailJS", ],
+  },
+
   {
     id: 6,
     image: eleven,
@@ -71,4 +76,19 @@ export const projectData = [
     liveLink: "https://www.sks-security.at/",
     techStack: ["HTML", "Bootstrap", "Joomla"],
   },
+  {
+    id: 7,
+    image: one,
+    transitionImage: two,
+    title:
+      "Heilmassage-FW is a personal website that I made for a client that provides massage services. Located in Vienna Austria",
+    codeLink: "https://github.com/edberv1/Heilmassage-FW",
+    liveLink: "https://heilmassage-fw.vercel.app/",
+    techStack: ["ReactJs", "TailwindCSS"],
+  },
+  
+  
+  
+  
+  
 ];
