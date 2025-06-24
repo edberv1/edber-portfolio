@@ -10,6 +10,7 @@ import {
   SiGithub,
 } from "react-icons/si";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
         </div>
       </StyledHome>
       <Analytics />
+      <SpeedInsights/>
     </IconContext.Provider>
   );
 };
