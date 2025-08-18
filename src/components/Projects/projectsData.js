@@ -13,6 +13,8 @@ import {
   twelve,
   thirteen,
   fourteen,
+  fifteen,
+  sixteen
 } from "./projectImages";
 
 export const projectData = [
@@ -65,9 +67,19 @@ export const projectData = [
     liveLink: "https://www.dinatglass.com/",
     techStack: ["HTML", "SCSS", "JavaScript","Bootstrap", "EmailJS", ],
   },
+ {
+    id: 6,
+    image: fifteen,
+    transitionImage: sixteen,
+    title:
+    "Ecotek Forage is a Swiss company specializing in geothermal drilling and sustainable energy solutions for residential, commercial, and industrial projects. The website was developed to highlight their expertise, present their services, and build trust with potential clients by showcasing completed projects and innovations in renewable energy. It features a clean, responsive design with an emphasis on clarity and professionalism, enabling visitors to explore services, learn about geothermal benefits, and easily reach out for consultations.",
+    codeLink: "https://github.com/edberv1/ecotek-forage",
+    liveLink: "https://www.ecotek-forage.ch/",
+    techStack: ["HTML", "SCSS", "JavaScript","Bootstrap", "EmailJS"],
+  },
 
   {
-    id: 6,
+    id: 7,
     image: eleven,
     transitionImage: twelve,
     title:
@@ -77,7 +89,7 @@ export const projectData = [
     techStack: ["HTML", "Bootstrap", "Joomla"],
   },
   {
-    id: 7,
+    id: 8,
     image: one,
     transitionImage: two,
     title:
