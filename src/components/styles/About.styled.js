@@ -106,30 +106,42 @@ export const Resume = styled.div`
 `;
 
 export const ResumeLink = styled.a`
+  display: inline-flex; /* align icon and text horizontally */
+  align-items: center;
   color: #fff;
   letter-spacing: 2px;
   font-weight: 600;
   cursor: pointer;
+  position: relative; /* for underline */
 
-  &::before {
-    content: ${(props) => `url(${props.icon})`};
+  &::after {
+    content: "";
     position: absolute;
-    right: -2rem;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transform: translateX(-20px);
-    transform: translateX(-20px);
-    transition: all 0.3s;
+    right: 0;
+    left: 0;
+    bottom: -0.5rem;
+    height: 1px;
+    border-radius: 5px;
+    background: ${({ theme }) => theme.backgroundColor.light};
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
   }
 
-  &:hover::before {
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  img {
+    margin-right: 0.5rem; /* space between icon and text */
+    width: 20px;
+    height: 20px;
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     font-size: 1rem;
   }
 `;
+

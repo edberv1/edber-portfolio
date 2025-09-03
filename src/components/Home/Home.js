@@ -17,7 +17,7 @@ const Home = () => {
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
         <Name>Edber Vuçitërna</Name>
-        <Title>Software Developer</Title>
+        <Title>Full-Stack Developer</Title>
         <div id="contactdiv">
           <a
             href="https://github.com/edberv1"
@@ -27,7 +27,7 @@ const Home = () => {
             <SiGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/edber-vu%C3%A7it%C3%ABrna-aa205b22b/"
+            href="https://www.linkedin.com/in/edber-vuciterna"
             target="_blank"
             rel="noopener noreferrer"
           >

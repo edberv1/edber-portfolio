@@ -25,7 +25,7 @@ const About = () => {
         <AboutDetailsContainer>
          
           <StyledParagraph>
-          Software Developer skilled in crafting user-friendly web experiences with React.js. I bring a strong foundation in back-end technologies like Laravel, Node.js and SQL to the table, ensuring smooth data integration and application functionality. Experienced in all stages of the development cycle, and dedicated to delivering clean, efficient code while collaborating effectively with teams.
+          Full Stack Developer skilled in crafting user-friendly web experiences with React.js. I bring a strong foundation in back-end technologies like Laravel, Node.js and SQL to the table, ensuring smooth data integration and application functionality. Experienced in all stages of the development cycle, and dedicated to delivering clean, efficient code while collaborating effectively with teams.
           </StyledParagraph>
       
           <Resume>
@@ -33,9 +33,9 @@ const About = () => {
               download="cv.pdf"
               href="https://drive.google.com/file/d/13WvFMyCBfGXhXEuLBbI_S7_JjApzaQYM/view?usp=sharing"
               target="_blank"
-              icon={downloadIcon}
+             
       
-            >
+            ><img src={downloadIcon} alt="download icon"/>
               Resume
             </ResumeLink>
           </Resume>
