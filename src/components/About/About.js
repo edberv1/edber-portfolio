@@ -31,7 +31,7 @@ const About = () => {
           <Resume>
             <ResumeLink
               download="cv.pdf"
-              href="https://drive.google.com/file/d/1Tm_e9utPOILZTg30lP3zIG4KT3V1lwmJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/13WvFMyCBfGXhXEuLBbI_S7_JjApzaQYM/view?usp=sharing"
               target="_blank"
               icon={downloadIcon}
       
